@@ -12,13 +12,13 @@ Acest proiect implementează o versiune a Problemei Reginelor folosind o tablă 
 
 ### 1. Ecran principal 
 -la apăsarea a 4 click-uri, in urma cărora nu sunt plasate 4 regine, jucătorul pierde
-![Screenshot 1](Screenshot_1.png)
+![Screenshot 1](photos/Screenshot_1.png)
 
 ### 2. Forward Checking activat
-![Screenshot 2](Screenshot_2.png)
+![Screenshot 2](photos/Screenshot_2.png)
 
 ### 3. Mesaj final - joc câștigat
-![Screenshot 3](Screenshot_3.png)
+![Screenshot 3](photos/Screenshot_3.png)
 
 
 ## Structura proiectului
