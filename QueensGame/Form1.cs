@@ -69,13 +69,12 @@ namespace QueensGame
                 int itempX = (e.X - 100) / 100;
                 int itempY = (e.Y - 100) / 100;
 
-                if (board.pozOcupata[itempX, itempY] == 0 && board.QueenCount < 4)
-                {
-                    game.HandleMouseClick(itempX, itempY);
-                    this.Invalidate();
-                }
+                game.HandleMouseClick(itempX, itempY);
+                this.Invalidate();
 
                 clickCount++; // incrementare contor
+
+
 
                 if (clickCount == 4)
                 {
