@@ -124,11 +124,19 @@ namespace QueensGame
         private void despreToolStripMenuItem_Click(object sender, EventArgs e)
         {
             const string info =
-                "Forward Checking\r\n" +
-                "Proiect: Problema celor 4 reginelor\r\n" +
-                "(c)2025 Dezvoltat pentru laborator\r\n" +
-                "Autor: Maftei-Gutui Robert";
-            MessageBox.Show(info, "Despre jocul Reginele");
+                "Jocul celor 4 Regine utilizand Forward Checking\r\n"+
+                "\r\n"+
+                "Reguli joc:\r\n" +
+                "Jucătorul plasează, prin apasarea click-ului, câte o regină în tabelă.\r\n" +
+                "\r\n" +
+                "Scopul jocului:\r\n" +
+                "Plasarea simultană a 4 regine duce la câștigarea jocului.\r\n" +
+                "În cazul unui număr limitat de click-uri (4) finalizat prin\r\n" +
+                "neplasarea celor 4 regine, jocul este pierdut.\r\n" +
+                "\r\n" +
+                "(c)2025 Maftei-Gutui Robert";
+            MessageBox.Show(info, "4 Queens Game");
         }
+
     }
 }

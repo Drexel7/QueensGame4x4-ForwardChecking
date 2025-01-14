@@ -3,7 +3,9 @@
     public class Game
     {
         public Board Board { get; private set; }
+        public object ForwardCheckingEnabled { get; internal set; }
 
+        public int QueenCount => Board.QueenCount;
         public Game()
         {
             Board = new Board();
@@ -21,10 +23,6 @@
         {
             Board.ResetGame();
         }
-
-        public int QueenCount => Board.QueenCount;
-
-        public object ForwardCheckingEnabled { get; internal set; }
 
         public string CheckGameStatus(int clickCount)
         {
